@@ -6,7 +6,7 @@
     <title>My Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -60,7 +60,7 @@
         <div class="about-content">
             <div class="about-image">
                 <div class="about-card">
-                    <h3 style="color: #00d4aa; margin-bottom: 1rem;">Professional Summary</h3>
+                    <h3 class="about-card-title">Professional Summary</h3>
                     <p class="about-text">
                         I'm a passionate software engineer and AI researcher from Bié, Angola, with expertise in full-stack development, 
                         artificial intelligence, and cybersecurity. As a university lecturer and mentor, I'm committed to advancing 
@@ -70,8 +70,8 @@
             </div>
             <div class="about-details">
                 <div class="about-card">
-                    <h3 style="color: #00d4aa; margin-bottom: 1rem;">Key Achievements</h3>
-                    <ul style="list-style: none; line-height: 2;">
+                    <h3 class="about-card-title">Key Achievements</h3>
+                    <ul class="achievements-list">
                         <li>🚀 Co-founded Ascende Mentor (2024) - connecting 120+ mentees with mentors</li>
                         <li>🤖 Led ClimVect-AO (2025) - ML initiative for malaria risk prediction</li>
                         <li>🛒 Developed Ombela Market - local e-commerce platform with 30+ vendors</li>
@@ -182,33 +182,66 @@
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <div class="project-title">Ascende Mentor</div>
-                <p>Online mentorship platform developed in Node.js and MongoDB with Supabase authentication and Jitsi video integration. Focused on youth empowerment and professional development.</p>
-                <div class="skill-tags" style="margin-top: 1rem;">
-                    <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">MongoDB</span>
-                    <span class="skill-tag">Supabase</span>
-                    <span class="skill-tag">Jitsi</span>
+                <div class="project-image">
+                    <img src="assets/images/ascende-mentor.svg" alt="Ascende Mentor Platform" class="project-screenshot">
+                    <div class="project-overlay">
+                        <a href="https://github.com/Edgar-Del/ascende-mentor" target="_blank" class="github-link">
+                            <span class="github-icon">📁</span>
+                            View Repository
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">Ascende Mentor</div>
+                    <p>Online mentorship platform developed in Node.js and MongoDB with Supabase authentication and Jitsi video integration. Focused on youth empowerment and professional development.</p>
+                    <div class="skill-tags project-skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">Jitsi</span>
+                    </div>
                 </div>
             </div>
             
             <div class="project-card">
-                <div class="project-title">Ombela Market</div>
-                <p>Regional e-commerce marketplace built on MedusaJS. Features include product management, local vendor integration, and digital payments (PayPal, Multicaixa Express).</p>
-                <div class="skill-tags" style="margin-top: 1rem;">
-                    <span class="skill-tag">MedusaJS</span>
-                    <span class="skill-tag">PayPal</span>
-                    <span class="skill-tag">E-commerce</span>
+                <div class="project-image">
+                    <img src="assets/images/ombela-market.svg" alt="Ombela Market Platform" class="project-screenshot">
+                    <div class="project-overlay">
+                        <a href="https://github.com/Edgar-Del/ombela-market" target="_blank" class="github-link">
+                            <span class="github-icon">📁</span>
+                            View Repository
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">Ombela Market</div>
+                    <p>Regional e-commerce marketplace built on MedusaJS. Features include product management, local vendor integration, and digital payments (PayPal, Multicaixa Express).</p>
+                    <div class="skill-tags project-skill-tags">
+                        <span class="skill-tag">MedusaJS</span>
+                        <span class="skill-tag">PayPal</span>
+                        <span class="skill-tag">E-commerce</span>
+                    </div>
                 </div>
             </div>
             
             <div class="project-card">
-                <div class="project-title">ClimVect-AO</div>
-                <p>Machine learning initiative for malaria risk prediction adopted by public health stakeholders. Focuses on climate change impact on vector-borne diseases in Angola.</p>
-                <div class="skill-tags" style="margin-top: 1rem;">
-                    <span class="skill-tag">Machine Learning</span>
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Data Science</span>
+                <div class="project-image">
+                    <img src="assets/images/climvect-ao.svg" alt="ClimVect-AO Project" class="project-screenshot">
+                    <div class="project-overlay">
+                        <a href="https://github.com/Edgar-Del/climvect-ao" target="_blank" class="github-link">
+                            <span class="github-icon">📁</span>
+                            View Repository
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">ClimVect-AO</div>
+                    <p>Machine learning initiative for malaria risk prediction adopted by public health stakeholders. Focuses on climate change impact on vector-borne diseases in Angola.</p>
+                    <div class="skill-tags project-skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Data Science</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,7 +252,7 @@
         <h2 class="section-title">Get In Touch</h2>
         <div class="contact-content">
             <div class="contact-info">
-                <h3 style="color: #00d4aa; margin-bottom: 1.5rem;">Contact Information</h3>
+                <h3 class="contact-section-title">Contact Information</h3>
                 
                 <div class="contact-item">
                     <div class="contact-icon">📧</div>
@@ -250,7 +283,7 @@
                     <div class="contact-icon">💼</div>
                     <div>
                         <strong>LinkedIn</strong><br>
-                        <a href="https://www.linkedin.com/in/edgar-tchissingui" style="color: #00d4aa;">edgar-tchissingui</a>
+                        <a href="https://www.linkedin.com/in/edgar-tchissingui" class="contact-link">edgar-tchissingui</a>
                     </div>
                 </div>
                 
@@ -258,13 +291,13 @@
                     <div class="contact-icon">💻</div>
                     <div>
                         <strong>GitHub</strong><br>
-                        <a href="https://github.com/Edgar-Del" style="color: #00d4aa;">Edgar-Del</a>
+                        <a href="https://github.com/Edgar-Del" class="contact-link">Edgar-Del</a>
                     </div>
                 </div>
             </div>
             
             <div class="contact-form">
-                <h3 style="color: #00d4aa; margin-bottom: 1.5rem;">Send Me a Message</h3>
+                <h3 class="contact-section-title">Send Me a Message</h3>
                 <form id="contactForm">
                     <div class="form-group">
                         <label for="name">Name</label>
