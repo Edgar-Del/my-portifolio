@@ -8,9 +8,7 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 
 ## LIVE DEMO
 
-**Visit the portfolio:** 
-- **Vercel:** [portifolio-mu-two-43.vercel.app](https://portifolio-mu-two-43.vercel.app)
-- **GitHub Pages:** [edgar-del.github.io/my-portifolio](https://edgar-del.github.io/my-portifolio) *(Coming soon)*
+**Visit the portfolio:** [edgar-del.github.io/my-portifolio](https://edgar-del.github.io/my-portifolio)
 
 ## FEATURES
 
@@ -28,8 +26,7 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 - **Google Fonts**: Poppins and Montserrat for typography
 - **Git**: Version control
 - **GitHub**: Code hosting and deployment
-- **Vercel**: Hosting and deployment platform
-- **GitHub Pages**: Static site hosting
+- **GitHub Pages**: Static site hosting and deployment
 
 ## SECTION
 
@@ -56,7 +53,6 @@ my-portfolio/
 ├── styles.css              # All CSS styles
 ├── README.md              # Project documentation
 ├── CV_Edgar.pdf           # Downloadable CV
-├── vercel.json            # Vercel deployment config
 ├── .gitignore            # Git ignore file
 └── assets/
     └── images/
@@ -65,6 +61,12 @@ my-portfolio/
         ├── ombela-market.svg
         └── climvect-ao.svg
 ```
+
+## DEPLOYMENT
+
+This portfolio is deployed on **GitHub Pages** and automatically updates when changes are pushed to the main branch.
+
+**Deploy URL:** [edgar-del.github.io/my-portifolio](https://edgar-del.github.io/my-portifolio)
 
 ## AUTHOR
 
