@@ -1,16 +1,16 @@
 # Edgar Tchissingui - Portfolio
 
-## 📋 About
+## ABOUT
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Software Engineer & AI Researcher from Angola.
 
 This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portfolio Challenge"** from the Software Development Training Program of **Power Learn Project Africa**.
 
-## 🌐 Live Demo
+## LIVE DEMO
 
 **Visit the portfolio:** [portifolio-mu-two-43.vercel.app](https://portifolio-mu-two-43.vercel.app)
 
-## 🚀 Features
+## FEATURES
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Modern UI**: Clean design with gradient backgrounds and smooth animations
@@ -19,7 +19,7 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 - **Download CV**: Direct PDF download functionality
 - **Contact Form**: Interactive contact form for easy communication
 
-## 🛠️ Technologies Used
+## TECHNOLOGIES USED
 
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Modern styling with Flexbox, Grid, and animations
@@ -28,7 +28,7 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 - **GitHub**: Code hosting and deployment
 - **Vercel**: Hosting and deployment platform
 
-## 📱 Sections
+## SECTION
 
 - **Hero**: Personal introduction with animated profile photo
 - **About**: Professional summary and key achievements
@@ -38,14 +38,14 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 - **Projects**: Featured projects with GitHub links
 - **Contact**: Contact information and form
 
-## 🎨 Design Highlights
+## DESIGN HIGHLIGHTS
 
 - **Color Scheme**: Teal (#00d4aa), Blue (#00a8cc), Purple (#a55eea)
 - **Typography**: Poppins for headings, Montserrat for body text
 - **Animations**: Smooth hover effects and floating animations
 - **Responsive**: Mobile-first approach with adaptive layouts
 
-## 📁 Project Structure
+## PROJECT STRUCTURE
 
 ```
 my-portfolio/
@@ -62,29 +62,14 @@ my-portfolio/
         └── climvect-ao.svg
 ```
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Edgar-Del/my-portfolio.git
-   ```
-
-2. Open `index.html` in your browser
-
-3. No additional setup required - it's pure HTML/CSS!
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
+## AUTHOR
 
 **Edgar Delfino Tchissingui**
 - Software Engineer & AI Researcher
 - From Bié, Angola
 - Specializing in Full-Stack Development, AI, and Cybersecurity
 
-## 📞 Contact
+## CONTACT
 
 - **Email**: delfinotchissingui@gmail.com
 - **LinkedIn**: [edgar-tchissingui](https://www.linkedin.com/in/edgar-tchissingui)
