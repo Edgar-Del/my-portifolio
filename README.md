@@ -8,7 +8,9 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 
 ## LIVE DEMO
 
-**Visit the portfolio:** [portifolio-mu-two-43.vercel.app](https://portifolio-mu-two-43.vercel.app)
+**Visit the portfolio:** 
+- **Vercel:** [portifolio-mu-two-43.vercel.app](https://portifolio-mu-two-43.vercel.app)
+- **GitHub Pages:** [edgar-del.github.io/my-portifolio](https://edgar-del.github.io/my-portifolio) *(Coming soon)*
 
 ## FEATURES
 
@@ -27,6 +29,7 @@ This portfolio was created as part of the **"July 2025 Cohort Hackathon 1: Portf
 - **Git**: Version control
 - **GitHub**: Code hosting and deployment
 - **Vercel**: Hosting and deployment platform
+- **GitHub Pages**: Static site hosting
 
 ## SECTION
 
@@ -54,6 +57,7 @@ my-portfolio/
 ├── README.md              # Project documentation
 ├── CV_Edgar.pdf           # Downloadable CV
 ├── vercel.json            # Vercel deployment config
+├── .gitignore            # Git ignore file
 └── assets/
     └── images/
         ├── my-profile.png  # Profile photo
