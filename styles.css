@@ -782,6 +782,87 @@ section {
     box-shadow: 0 10px 30px rgba(0, 212, 170, 0.3);
 }
 
+/* Educational Background Section */
+.education-section {
+    margin: 3rem 0;
+}
+
+.education-title {
+    color: #00d4aa;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.education-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 170, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.education-card:hover::before {
+    left: 100%;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 212, 170, 0.2);
+    border-color: rgba(0, 212, 170, 0.3);
+}
+
+.education-degree {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.01em;
+}
+
+.education-specialization {
+    font-size: 1rem;
+    color: #00d4aa;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.education-institution, .education-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.location-icon, .graduation-icon {
+    font-size: 1rem;
+}
+
 /* Download CV Button */
 .cv-download {
     text-align: center;
@@ -865,7 +946,7 @@ section {
         gap: 2rem;
     }
     
-    .skills-grid, .interest-grid {
+    .skills-grid, .interest-grid, .education-grid {
         grid-template-columns: 1fr;
     }
     
@@ -890,7 +971,7 @@ section {
         font-size: 2.2rem;
     }
     
-    .about-card, .skill-category, .interest-card {
+    .about-card, .skill-category, .interest-card, .education-card {
         padding: 1.5rem;
     }
     
@@ -925,7 +1006,7 @@ section {
         height: 200px;
     }
     
-    .about-card, .skill-category, .interest-card {
+    .about-card, .skill-category, .interest-card, .education-card {
         padding: 1rem;
     }
     
