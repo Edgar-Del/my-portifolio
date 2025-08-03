@@ -478,44 +478,65 @@ section {
     letter-spacing: 0.01em;
 }
 
-/* Experience Section */
-.experience-timeline {
-    position: relative;
+/* Interest Section */
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
     margin-top: 2rem;
 }
 
-.timeline-item {
+.interest-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 4px solid #00d4aa;
-    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
-.timeline-item:hover {
-    transform: translateX(10px);
+.interest-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 170, 0.1), transparent);
+    transition: left 0.5s ease;
 }
 
-.timeline-date {
+.interest-card:hover::before {
+    left: 100%;
+}
+
+.interest-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 212, 170, 0.2);
+    border-color: rgba(0, 212, 170, 0.3);
+}
+
+.interest-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.interest-title {
     color: #00d4aa;
+    font-size: 1.3rem;
     font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     letter-spacing: -0.01em;
 }
 
-.timeline-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-.timeline-company {
-    color: #a55eea;
-    font-weight: 500;
-    margin-bottom: 1rem;
+.interest-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
 }
 
 /* Projects Section */
@@ -844,7 +865,7 @@ section {
         gap: 2rem;
     }
     
-    .skills-grid {
+    .skills-grid, .interest-grid {
         grid-template-columns: 1fr;
     }
     
@@ -869,7 +890,7 @@ section {
         font-size: 2.2rem;
     }
     
-    .about-card, .skill-category {
+    .about-card, .skill-category, .interest-card {
         padding: 1.5rem;
     }
     
@@ -904,7 +925,7 @@ section {
         height: 200px;
     }
     
-    .about-card, .skill-category {
+    .about-card, .skill-category, .interest-card {
         padding: 1rem;
     }
     
